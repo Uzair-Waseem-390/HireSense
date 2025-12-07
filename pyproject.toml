@@ -1,0 +1,19 @@
+[project]
+name = "hiresense"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "argon2-cffi>=25.1.0",
+    "fastapi[all]>=0.123.9",
+    "openai-agents>=0.6.2",
+    "passlib>=1.7.4",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.12.0",
+    "pymupdf>=1.26.6",
+    "python-jose>=3.5.0",
+    "python-multipart>=0.0.20",
+    "requests>=2.32.5",
+    "sqlalchemy>=2.0.44",
+]
